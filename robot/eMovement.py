@@ -172,7 +172,7 @@ class movement:
             logging.warn('WARNING: Wrong return value')
             return False
         
-    def drive_forward(self, speed):
+    def driveForward(self, speed):
         """
         drive forward method
         sets speed equally to both left and right motor 
